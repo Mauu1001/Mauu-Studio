@@ -6,9 +6,6 @@ import {
   Check, ChevronDown,
 } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import portfolio1 from "@/assets/portfolio-1.jpg";
-import portfolio2 from "@/assets/portfolio-2.jpg";
-import portfolio3 from "@/assets/portfolio-3.jpg";
 import { useReveal } from "@/hooks/use-reveal";
 
 export const Route = createFileRoute("/")({
@@ -181,11 +178,6 @@ function Benefits() {
 }
 
 function Portfolio() {
-  const items = [
-    { img: portfolio1, title: "FitZone Gym", tag: "Sală de fitness", desc: "Site modern cu program, abonamente și formular de înscriere." },
-    { img: portfolio2, title: "Bella Beauty", tag: "Salon de înfrumusețare", desc: "Prezentare elegantă cu galerie, servicii și rezervări online." },
-    { img: portfolio3, title: "La Tavola", tag: "Restaurant", desc: "Meniu digital, rezervări și integrare Google Maps." },
-  ];
   return (
     <section id="portfolio" className="py-28">
       <div className="max-w-6xl mx-auto px-6">
@@ -193,22 +185,11 @@ function Portfolio() {
           <div className="text-sm uppercase tracking-widest text-primary mb-4">Portofoliu</div>
           <h2 className="text-4xl md:text-5xl font-bold">Proiecte care <span className="text-gradient">aduc clienți</span></h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {items.map((p, i) => (
-            <article key={p.title} className="reveal group rounded-2xl overflow-hidden glass shadow-card hover:shadow-glow transition-all duration-500" style={{ transitionDelay: `${i * 80}ms` }}>
-              <div className="aspect-[4/3] overflow-hidden">
-                <img src={p.img} alt={p.title} width={1024} height={768} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-              </div>
-              <div className="p-6">
-                <div className="text-xs uppercase tracking-wider text-primary mb-2">{p.tag}</div>
-                <h3 className="text-xl font-semibold mb-2">{p.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">{p.desc}</p>
-                <a href="#contact" className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground hover:text-primary transition-colors">
-                  Vezi proiectul <ArrowRight className="w-4 h-4" />
-                </a>
-              </div>
-            </article>
-          ))}
+        <div className="reveal glass rounded-3xl p-16 md:p-24 text-center shadow-card">
+          <div className="text-5xl md:text-7xl font-display font-bold text-gradient tracking-widest">
+            VA URMA
+          </div>
+          <p className="mt-6 text-muted-foreground">Primele proiecte vor apărea în curând aici.</p>
         </div>
       </div>
     </section>
@@ -244,11 +225,6 @@ function Process() {
 }
 
 function Testimonials() {
-  const items = [
-    { name: "Andreea M.", role: "Salon Belle Vie", text: "Site-ul arată exact cum mi-am dorit. Am început să primesc rezervări online în prima săptămână." },
-    { name: "Cristian P.", role: "Gym Pulse", text: "Profesionalism și rapiditate. Recomand cu încredere oricărei afaceri care vrea să arate serios online." },
-    { name: "Mihai R.", role: "Restaurant La Curte", text: "Comunicare excelentă și un rezultat final peste așteptări. Numărul de comenzi a crescut vizibil." },
-  ];
   return (
     <section className="py-28">
       <div className="max-w-6xl mx-auto px-6">
@@ -256,22 +232,11 @@ function Testimonials() {
           <div className="text-sm uppercase tracking-widest text-primary mb-4">Testimoniale</div>
           <h2 className="text-4xl md:text-5xl font-bold">Ce spun <span className="text-gradient">clienții mei</span></h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {items.map((t, i) => (
-            <figure key={t.name} className="reveal p-8 rounded-2xl glass shadow-card" style={{ transitionDelay: `${i * 80}ms` }}>
-              <div className="text-primary text-3xl leading-none mb-4">"</div>
-              <blockquote className="text-foreground/90 leading-relaxed mb-6">{t.text}</blockquote>
-              <figcaption className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-gradient-primary flex items-center justify-center font-semibold text-primary-foreground">
-                  {t.name[0]}
-                </div>
-                <div>
-                  <div className="font-medium text-sm">{t.name}</div>
-                  <div className="text-xs text-muted-foreground">{t.role}</div>
-                </div>
-              </figcaption>
-            </figure>
-          ))}
+        <div className="reveal glass rounded-3xl p-16 md:p-24 text-center shadow-card">
+          <div className="text-5xl md:text-7xl font-display font-bold text-gradient tracking-widest">
+            VA URMA
+          </div>
+          <p className="mt-6 text-muted-foreground">Primele testimoniale vor apărea în curând aici.</p>
         </div>
       </div>
     </section>
@@ -326,24 +291,24 @@ function Contact() {
           </p>
         </div>
         <div className="reveal grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
-          <a href="https://wa.me/40700000000" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
+          <a href="https://wa.me/40741646620" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
             <MessageCircle className="w-7 h-7 mx-auto mb-3 text-primary" />
             <div className="font-medium mb-1">WhatsApp</div>
-            <div className="text-sm text-muted-foreground">+40 700 000 000</div>
+            <div className="text-sm text-muted-foreground">+40 741 646 620</div>
           </a>
-          <a href="https://instagram.com" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
+          <a href="https://instagram.com/marius_mahalau" target="_blank" rel="noopener noreferrer" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
             <Instagram className="w-7 h-7 mx-auto mb-3 text-primary" />
             <div className="font-medium mb-1">Instagram</div>
-            <div className="text-sm text-muted-foreground">@pixelstudio</div>
+            <div className="text-sm text-muted-foreground">@marius_mahalau</div>
           </a>
-          <a href="mailto:contact@pixelstudio.ro" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
+          <a href="mailto:mahalaumarius@gmail.com" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
             <Mail className="w-7 h-7 mx-auto mb-3 text-primary" />
             <div className="font-medium mb-1">Email</div>
-            <div className="text-sm text-muted-foreground">contact@pixelstudio.ro</div>
+            <div className="text-sm text-muted-foreground">mahalaumarius@gmail.com</div>
           </a>
         </div>
         <div className="reveal mt-10 text-center">
-          <a href="https://wa.me/40700000000" className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground px-8 py-4 rounded-full font-medium shadow-glow hover:scale-105 transition-transform">
+          <a href="https://wa.me/40741646620" className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground px-8 py-4 rounded-full font-medium shadow-glow hover:scale-105 transition-transform">
             <Send className="w-4 h-4" /> Solicită ofertă acum
           </a>
         </div>
