@@ -294,24 +294,24 @@ function Contact() {
           </p>
         </div>
         <div className="reveal grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
-          <a href="https://wa.me/40700000000" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
+          <a href="https://wa.me/40741646620" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
             <MessageCircle className="w-7 h-7 mx-auto mb-3 text-primary" />
             <div className="font-medium mb-1">WhatsApp</div>
-            <div className="text-sm text-muted-foreground">+40 700 000 000</div>
+            <div className="text-sm text-muted-foreground">+40 741 646 620</div>
           </a>
-          <a href="https://instagram.com" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
+          <a href="https://instagram.com/marius_mahalau" target="_blank" rel="noopener noreferrer" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
             <Instagram className="w-7 h-7 mx-auto mb-3 text-primary" />
             <div className="font-medium mb-1">Instagram</div>
-            <div className="text-sm text-muted-foreground">@pixelstudio</div>
+            <div className="text-sm text-muted-foreground">@marius_mahalau</div>
           </a>
-          <a href="mailto:contact@pixelstudio.ro" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
+          <a href="mailto:mahalaumarius@gmail.com" className="group glass p-6 rounded-2xl text-center hover:shadow-glow transition-all hover:-translate-y-1">
             <Mail className="w-7 h-7 mx-auto mb-3 text-primary" />
             <div className="font-medium mb-1">Email</div>
-            <div className="text-sm text-muted-foreground">contact@pixelstudio.ro</div>
+            <div className="text-sm text-muted-foreground">mahalaumarius@gmail.com</div>
           </a>
         </div>
         <div className="reveal mt-10 text-center">
-          <a href="https://wa.me/40700000000" className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground px-8 py-4 rounded-full font-medium shadow-glow hover:scale-105 transition-transform">
+          <a href="https://wa.me/40741646620" className="inline-flex items-center gap-2 bg-gradient-primary text-primary-foreground px-8 py-4 rounded-full font-medium shadow-glow hover:scale-105 transition-transform">
             <Send className="w-4 h-4" /> Solicită ofertă acum
           </a>
         </div>
