@@ -13,11 +13,10 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Web Design pentru afaceri locale | Site-uri moderne de prezentare" },
       { name: "description", content: "Site-uri moderne one-page pentru afaceri locale. Design premium, responsive, optimizat SEO. Solicită ofertă gratuit." },
-  ],
-  links: [
-    { rel: "icon", href: "/favicon.ico" },
-  ],
-}),
+    ],
+  }),
+  component: LandingPage,
+});
 
 function LandingPage() {
   useReveal();
