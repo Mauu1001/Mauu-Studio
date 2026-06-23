@@ -80,7 +80,6 @@ function Hero() {
       <div className="relative max-w-6xl mx-auto px-6 text-center">
       <h1 className="reveal text-5xl md:text-7xl font-bold leading-[1.05] mb-6">
         <div className="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs text-muted-foreground mb-8">
-          <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
         </div>
           Transform afacerea ta într-o{" "}
           <span className="text-gradient">prezență profesională online</span>
