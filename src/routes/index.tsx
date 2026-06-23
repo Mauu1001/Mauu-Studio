@@ -53,11 +53,12 @@ function Nav() {
   return (
     <header className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled ? "glass py-3" : "py-5"}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2 font-display font-bold text-lg">
-          <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-gradient-to-br from-brand to-brand-glow text-primary-foreground"></span>
-          <Sparkles className="size-4" />
-          <span>Mauu<span className="text-gradient"> Studio</span></span>
-        </a>
+         <a href="#" className="flex items-center gap-2 font-display font-bold text-lg">
+         <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-gradient-to-br from-brand to-brand-glow text-primary-foreground">
+         <Sparkles className="size-4" />
+         </span>
+         <span>Mauu<span className="text-gradient"> Studio</span></span>
+         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           {links.map(([l, h]) => (
             <a key={h} href={h} className="hover:text-foreground transition-colors">{l}</a>
