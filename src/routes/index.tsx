@@ -96,7 +96,7 @@ function Hero() {
           </a>
         </div>
         <div className="reveal mt-20 grid grid-cols-3 gap-8 max-w-2xl mx-auto text-center">
-          {[["50+", "Site-uri livrate"], ["7 zile", "Timp mediu livrare"], ["100%", "Clienți mulțumiți"]].map(([n, l]) => (
+          {[["-", "Site-uri livrate"], ["7 zile", "Timp mediu livrare"], ["-", "Clienți mulțumiți"]].map(([n, l]) => (
             <div key={l}>
               <div className="text-3xl md:text-4xl font-display font-bold text-gradient">{n}</div>
               <div className="text-xs md:text-sm text-muted-foreground mt-1">{l}</div>
