@@ -324,7 +324,9 @@ function Footer() {
     <footer className="border-t border-border py-12">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-muted-foreground">
         <div className="flex items-center gap-2 font-display font-bold text-foreground">
-          <span className="w-7 h-7 rounded-lg bg-gradient-primary"/>
+          <span className="grid size-7 shrink-0 place-items-center rounded-lg bg-gradient-to-br from-brand to-brand-glow text-primary-foreground">
+          <Sparkles className="size-3.5" />
+          </span>
           Mauu<span className="text-gradient">Studio</span>
         </div>
         <p className="text-center max-w-md">
