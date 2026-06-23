@@ -247,7 +247,7 @@ function Testimonials() {
 function FAQ() {
   const items = [
     { q: "Cât durează realizarea?", a: "În general, între 5 și 10 zile lucrătoare, în funcție de complexitate și de cât de repede primesc conținutul (text, imagini)." },
-    { q: "Cât costă?", a: "Prețurile pornesc de la 500 RON pentru un site one-page complet. Îți trimit o ofertă personalizată după ce discutăm despre proiect." },
+    { q: "Cât costă?", a: "Prețurile pornesc de la 400 RON pentru un site one-page complet. Îți trimit o ofertă personalizată după ce discutăm despre proiect." },
     { q: "Pot modifica ulterior?", a: "Da. Ofer suport și modificări post-livrare. Poți cere oricând actualizări de conținut, imagini sau secțiuni noi." },
     { q: "Este inclusă găzduirea?", a: "Te ajut cu alegerea și configurarea găzduirii și domeniului. Costurile anuale (~150 RON) sunt separate, dar foarte mici." },
   ];
